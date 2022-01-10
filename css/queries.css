@@ -1,0 +1,193 @@
+/**************************/
+/* 1200px */
+/**************************/
+
+@media (max-width: 75em) {
+  html {
+    font-size: 50%;
+  }
+
+  .section-hero {
+    background-size: cover;
+    background-position: center;
+    /* width: 100vw; */
+    height: 70vh;
+  }
+
+  .container {
+    max-width: fit-content;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .hero-content {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 9.6rem 4.8rem;
+  }
+
+  .hero-text {
+    color: #fff;
+    align-self: start;
+  }
+
+  .heading-primary {
+    font-size: 7rem;
+  }
+
+  .heading-secondary {
+    margin-bottom: 6.4rem;
+  }
+
+  .section-hero {
+    background-position: 50%;
+  }
+
+  /* Profile section */
+
+  .container-profile {
+    display: flex;
+    width: 70%;
+  }
+
+  .container-profile {
+    flex-direction: column;
+    align-items: center;
+    box-shadow: none;
+    gap: 3.6rem;
+  }
+
+  .column-jobs {
+    width: 100%;
+    border-radius: 11px;
+    overflow: hidden;
+    box-shadow: 0 3px 5px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-portrait {
+    border-radius: 11px;
+    overflow: hidden;
+    box-shadow: 0 3px 5px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  /* House section */
+
+  .column-right {
+    width: 51.94rem;
+    height: 51.94rem;
+    position: relative;
+  }
+
+  .column-left {
+    width: 32.06rem;
+    height: 51.94rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .house-map {
+    width: 32.06rem;
+    height: 32.06rem;
+    position: relative;
+  }
+
+  .house-address {
+    width: 100%;
+    background-color: rgba(253, 206, 255, 0.3);
+    height: 38.2%;
+    position: relative;
+  }
+
+  .slide img {
+    height: 100%;
+    width: 100%;
+    margin-right: -2px;
+  }
+
+  .footer-content {
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+
+  /* Gallery section */
+
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/**************************/
+/* 675px */
+/**************************/
+
+@media (max-width: 43em) {
+  html {
+    font-size: 40%;
+  }
+}
+
+/**************************/
+/* 550px */
+/**************************/
+
+@media (max-width: 35em) {
+  /* Profile section */
+
+  .column-jobs {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-crafting {
+    width: 100%;
+  }
+
+  .card-combat {
+    background-color: rgba(101, 184, 250, 0.3);
+    width: 100%;
+    padding: 2.4rem;
+  }
+
+  .card-portrait {
+    background-color: cyan;
+    width: fit-content;
+  }
+
+  .portrait {
+    width: 34rem;
+  }
+
+  /* House section */
+
+  .container-house {
+    height: 84.04rem;
+    flex-direction: column;
+  }
+
+  .column-left {
+    flex-direction: row;
+    width: 51.94rem;
+  }
+
+  .house-map {
+    height: 32.1rem;
+    width: 32.1rem;
+  }
+
+  .house-address {
+    order: -1;
+    width: 19.84rem;
+    height: 32.1rem;
+  }
+
+  /* Gallery section */
+
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
