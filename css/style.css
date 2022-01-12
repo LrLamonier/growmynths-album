@@ -224,7 +224,7 @@
 
 /* API info */
 .api-text {
-  text-align: center;
+  text-align: center !important;
   padding-top: 2rem;
 }
 
